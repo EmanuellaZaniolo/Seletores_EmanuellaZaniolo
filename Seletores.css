@@ -5,37 +5,55 @@
         }
 
         #topo-principal {
-            background-color: #333;
-            color: white;
+            background-color: #92C7CF;
+            color: rgb(207, 248, 250);
             padding: 20px;
         }
 
         .card {
-            background-color: white;
+            background-color: rgb(145, 195, 241);
             border-radius: 10px;
             width: 200px;
+            padding: 15px;
+            margin: 10px;
+            display: inline-block;
         }
 
         p span {
             font-weight: bold;
-            color: blue;
+            color: rgb(247, 247, 247);
         }
 
-        h1,
+        h1{
+            color:#f1fafb
+        }
         h2 {
-            color: #2c3e50;
+            color: #ffffff;
         }
 
         .card.destaque {
-            border: 3px solid gold;
+            border: 3px solid rgb(0, 119, 255);
             transform: scale(1.05);
         }
 
         button:hover {
-            background-color: #27ae60;
+            background-color: #ffffff;
+            color: rgb(103, 206, 247);
             cursor: pointer;
         }
 
         nav ul li:nth-child(2) {
             text-transform: uppercase;
+        }
+
+        nav ul{
+            color:#f7f9fc;
+            display: flex;
+            gap: 30px;
+            padding: 15px;
+            margin: 10px;
+        }
+
+        a{
+            color:#22304d
         }
